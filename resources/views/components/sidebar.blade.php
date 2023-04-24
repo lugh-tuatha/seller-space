@@ -1,3 +1,13 @@
-<div>
-    <!-- I have not failed. I've just found 10,000 ways that won't work. - Thomas Edison -->
+<p class="browse-txt">Browse Products</p>
+
+<div class="sidebar">
+    <button>Category</button>
+
+    <ul>
+        <li>ML Account</li>
+        <li>Services</li>
+        <li>Soc Med Account</li>
+        <li>Game credits</li>
+        <li>Boosting</li>
+    </ul>
 </div>
