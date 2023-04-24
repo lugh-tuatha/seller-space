@@ -1,3 +1,3 @@
-<div>
-    asdasd
-</div>
+<button>
+    {{ $name }}
+</button>
