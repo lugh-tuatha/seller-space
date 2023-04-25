@@ -25,3 +25,6 @@ Route::get('/fraud-prevention', function () {
     return view('fraud-prevention');
 });
 
+Route::get('/faqs', function () {
+    return view('faqs');
+});

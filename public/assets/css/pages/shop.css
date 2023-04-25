@@ -1,0 +1,8 @@
+.shop{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+p.browse-txt {
+    margin: 1rem 0 1rem .5rem;
+}

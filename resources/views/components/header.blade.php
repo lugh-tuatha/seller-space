@@ -5,12 +5,13 @@
         <li><a href="/">Shop</a></li>
         <li><a href="/new">New</a></li>
         <li><a href="/fraud-prevention">Scammer / trusted users</a></li>
+        <li><a href="/faqs">FAQs</a></li>
     </ul>
 
     <div class="search">
         <input type="search">
-        <i class="bi bi-cart2 fa-lg"></i>
-        <i class="bi bi-person"></i>
+        <a href="#"><i class="bi bi-cart2 fa-lg"></i></a>
+        <a href="#"><i class="bi bi-person"></i></a>
     </div>
 
 </nav>

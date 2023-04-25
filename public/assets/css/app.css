@@ -5,6 +5,9 @@ global css
 
 :root{
     --border-gray: rgba(128, 128, 128, 0.2);
+    --white-bg: #f8f7fd;
+    --theme: #363D80;
+    --text-color: rgb(84, 82, 96);
 }
 
 body{
@@ -47,6 +50,10 @@ header styles
     font-weight: 600;
 }
 
+.header ul li a:hover {
+    color: var(--theme);
+}
+
 .header .search {
     display: flex;
     align-items: center;
@@ -54,10 +61,12 @@ header styles
 }
 
 .header .search input{
-    height: 2rem;
-    background-color: var(--bg-gray);
+    height: 2.5rem;
+    background-color: #f9fbfc;
     border: 1px solid var(--border-gray);
     border-radius: .25rem;
+    padding-left: 2rem;
+    font-size: 1.10rem;
 }
 
 .header .search input:active{
@@ -77,39 +86,94 @@ header styles
     margin-left: .5rem;
 }
 
+.search input[type="search"] {
+    background-image: url('../svg/search.svg');
+    background-repeat: no-repeat;
+    background-position: .5rem center;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+
 /*---------------
 sidebar styles
 ---------------*/
 .sidebar{
-    border: 1px solid var(--border-gray);
     width: 17rem;
     border-radius: .5rem;
-    text-align: center;
+    background-color: var(--white-bg);
 }
 
-.sidebar button{
-    font-size: 1.25rem;
-    border: 0;
-    width: 85%;
-    margin: 1rem auto 0 auto;
-    padding: .5rem .75rem;
+.sidebar h1{
+    font-size: 1.15rem;
+    margin: 1rem 0 .75rem 1.5rem;
     font-weight: 500;
-    border-radius: .35rem;
-    text-align: start;
     background-color: #f5f7f9;
+    color: var(--theme);
+    font-weight: 600;
+}
+
+.sidebar h2{
+    font-size: 1.05rem;
+    margin-left: 1.5rem;
 }
 
 .sidebar ul{
-    margin-top: 1rem;
+    margin-bottom: .5rem;
 }
 
 .sidebar ul li{
     text-align: start;
-    margin: 1rem 1.5rem 0 1.5rem;
-    padding: 0 0 .75rem 1rem;
-    border-bottom: 1px solid var(--border-gray);
+    margin: .25rem 0 0 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
 }
 
-p.browse-txt{
-    margin: 1rem 0 1rem .5rem;
+.sidebar ul li .active-sign{
+    background-color: var(--theme);
+    width: 5px;
+    height: 5px;
+    margin-right: .5rem;
+    border-radius: 100%;
+    visibility: hidden;
+}
+
+.sidebar ul li.active .active-sign{
+    visibility: visible;
+}
+
+/*------------------------
+product container styles
+------------------------*/
+
+.product-container{
+    margin-left: 1rem;
+}
+
+.product-container .product{
+    padding: 1rem;
+    background-color: var(--white-bg);
+    width: 20rem;
+    border-radius: .5rem;
+}
+
+.product-container .product img{
+    width: 20rem;
+}
+
+.product-container .product h1{
+    font-size: 1.15rem;
+}
+
+.product-container .product p{
+    font-size: .9rem;
+    color: var(--text-color);
 }
