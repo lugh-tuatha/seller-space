@@ -100,6 +100,10 @@ input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 
+.header .search .bars i{
+    font-size: 2rem;
+    display: none;
+}
 
 /*---------------
 sidebar styles
@@ -153,27 +157,26 @@ sidebar styles
 /*------------------------
 product container styles
 ------------------------*/
-
-.product-container{
-    margin-left: 1rem;
-}
-
 .product-container .product{
-    padding: 1rem;
     background-color: var(--white-bg);
-    width: 20rem;
     border-radius: .5rem;
+    width: 20rem;
+    margin: 0 auto;
 }
 
 .product-container .product img{
-    width: 20rem;
+    width: 17.5rem;
+    margin: 0 auto;
+    padding: 1.23rem;
 }
 
 .product-container .product h1{
     font-size: 1.15rem;
+    padding: 0 1rem;
 }
 
 .product-container .product p{
     font-size: .9rem;
     color: var(--text-color);
+    padding: 0 1rem;
 }

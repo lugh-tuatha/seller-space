@@ -1,0 +1,31 @@
+@media screen and (max-width: 1050px) {
+  .header ul{
+    display: none;
+  }
+
+  .header .search .bars i {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .header .search input,
+  .header .search a {
+    display: none;
+  }
+
+  .header .search .bars i {
+    display: block;
+  }
+
+  .shop{
+    display: block;
+  }
+
+  .sidebar,
+  .product-container .product img,
+  .product-container .product{
+    width: 90%;
+    margin: 0 auto;
+  }
+}

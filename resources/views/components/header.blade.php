@@ -12,6 +12,15 @@
         <input type="search">
         <a href="#"><i class="bi bi-cart2 fa-lg"></i></a>
         <a href="#"><i class="bi bi-person"></i></a>
+        
+        <div class="bars">
+            <i class="bi bi-list"></i>
+        </div>
     </div>
+
+
+</nav>
+
+<nav class="mobile-menu">
 
 </nav>
