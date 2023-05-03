@@ -1,7 +1,6 @@
+/*-------------------- Sidebar --------------------*/
 const liItem = document.querySelectorAll(".sidebar ul li");
 const imgItem = document.querySelectorAll(".product-container");
-
-/*-------------------- Sidebar --------------------*/
 
 liItem.forEach((li) => {
     li.addEventListener("click", function () {
@@ -25,3 +24,19 @@ liItem.forEach((li) => {
         });
     });
 });
+
+/*-------------------- Header --------------------*/
+const menu = document.getElementById('menu')
+const menuItem = document.getElementById('menu-item')
+const close = document.getElementById('close')
+
+function showNavbar(){
+    menuItem.style.top = "0";
+}
+
+function hideNavbar() {
+    menuItem.style.top = "-100%";
+}
+
+menu.onclick = showNavbar;
+close.onclick = hideNavbar;
