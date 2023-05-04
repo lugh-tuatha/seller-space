@@ -8,6 +8,7 @@
 <div class="shop">
     <x-sidebar/>
     <x-product-container/>
+    <x-post-item/>
 </div>
 
 

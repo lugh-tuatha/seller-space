@@ -132,7 +132,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .mobile-menu i{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .mobile-menu ul li{
@@ -225,6 +225,26 @@ product container styles
     text-align: center;
     width: 90%;
 }
+
+/*--------------
+post item
+--------------*/
+.post-item{
+    background-color: transparent;
+    border: 1px solid var(--border-gray);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.post-item:hover{
+    background-color: #efefef;
+}
+
 
 /*--------------
 footer styles

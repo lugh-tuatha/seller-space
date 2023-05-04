@@ -18,7 +18,10 @@ liItem.forEach((li) => {
         imgItem.forEach((img) => {
             if (img.getAttribute("data-filter") === value) {
                 img.style.display = "block";
-            } else {
+            }else if (img.getAttribute("data-filter") === "new") {
+                img.style.display = "flex"
+            }
+            else {
                 img.style.display = "none";
             }
         });
