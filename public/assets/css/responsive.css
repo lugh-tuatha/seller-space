@@ -1,4 +1,11 @@
-@media screen and (max-width: 1050px) {
+@media screen and (min-width: 600px) {
+  .product-container{
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 1070px) {
   .header ul{
     display: none;
   }
@@ -6,6 +13,11 @@
   .header .search .bars i {
     display: block;
   }
+
+  .shop{
+    flex-direction: column;
+  }
+
 }
 
 @media screen and (max-width: 605px) {
@@ -18,14 +30,18 @@
     display: block;
   }
 
+  .shop .item,
   .shop{
-    display: block;
+    flex-direction: column;
   }
-
+  
   .sidebar,
   .product-container{
     width: 90%;
-    margin: 0 auto;
   }
 
+  .product-container{
+    width: 18rem;
+    height: 18rem;
+  }
 }

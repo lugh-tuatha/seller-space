@@ -139,12 +139,12 @@ input[type="search"]::-webkit-search-decoration {
     margin-bottom: .75rem;
 }
 
-
 /*---------------
 sidebar styles
 ---------------*/
 .sidebar{
-    width: 17rem;
+    min-width: 17rem;
+    max-width: 17rem;
     border-radius: .5rem;
     background-color: var(--white-bg);
 }
@@ -197,10 +197,10 @@ sidebar styles
 product container styles
 ------------------------*/
 .product-container{
-    width: 20rem;
-    height: 20rem;
+    max-width: 90%;
     background-color: var(--white-bg);
     border-radius: .5rem;
+    cursor: pointer;
 }
 
 .product-container .product{
@@ -226,6 +226,15 @@ product container styles
     width: 90%;
 }
 
+/*---------------
+sidebar styles
+---------------*/
+button{
+    padding: .5rem .75rem;
+    border: 1px solid var(--theme);
+    background-color: transparent;
+}
+
 /*--------------
 post item
 --------------*/
@@ -245,6 +254,11 @@ post item
     background-color: #efefef;
 }
 
+.item-container p.head{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin: 0 0 .50rem .25rem;
+}
 
 /*--------------
 footer styles
