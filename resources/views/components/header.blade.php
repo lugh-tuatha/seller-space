@@ -12,6 +12,7 @@
         <input type="search">
         <a href="#"><i class="bi bi-cart2 fa-lg"></i></a>
         <a href="#"><i class="bi bi-person"></i></a>
+        <i class="bi bi-moon" id="theme-toggle"></i>
         
         <div class="bars" id="menu">
             <i class="bi bi-list"></i>

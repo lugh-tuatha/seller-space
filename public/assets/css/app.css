@@ -5,15 +5,16 @@ global css
 
 :root{
     --border-gray: rgba(128, 128, 128, 0.2);
-    --white-bg: #f8f7fd;
+    --white-bg: #ffffff;
     --theme: #363D80;
-    --text-color: rgb(84, 82, 96);
+    --text-color: #666666;
 }
 
 body{
     width: 80%;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
+    background-color: var(--background);
 }
 
 *{
@@ -50,6 +51,10 @@ header styles
     font-weight: 600;
 }
 
+.header ul li a{
+    color: var(--heading-color);
+}
+
 .header ul li a:hover {
     color: var(--theme);
 }
@@ -62,11 +67,12 @@ header styles
 
 .header .search input{
     height: 2.5rem;
-    background-color: #f9fbfc;
+    background-color: var(--hover);
     border: 1px solid var(--border-gray);
     border-radius: .25rem;
     padding-left: 2rem;
     font-size: 1.10rem;
+    color: var(--text-color);
 }
 
 .header .search input:active{
@@ -75,6 +81,11 @@ header styles
 
 .header .search input:focus {
     outline: none;
+}
+
+.header .search i{
+    color: var(--heading-color);
+    cursor: pointer;
 }
 
 .header .search i:nth-child(2) {
@@ -153,7 +164,7 @@ sidebar styles
     font-size: 1.15rem;
     margin: 1rem 0 .75rem 1.5rem;
     font-weight: 500;
-    background-color: #f5f7f9;
+    background-color: transparent;
     color: var(--theme);
     font-weight: 600;
 }
@@ -161,6 +172,7 @@ sidebar styles
 .sidebar h2{
     font-size: 1.05rem;
     margin-left: 1.5rem;
+    color: var(--heading-color);
 }
 
 .sidebar ul{
@@ -219,11 +231,13 @@ product container styles
 .product-container .product h1{
     margin: .25rem 0;
     font-size: 1.25rem;
+    color: var(--heading-color);
 }
 
 .product-container .product p{
     text-align: center;
     width: 90%;
+    color: var(--text-color);
 }
 
 /*---------------
@@ -251,7 +265,7 @@ post item
 }
 
 .post-item:hover{
-    background-color: #efefef;
+    background-color: var(--hover);
 }
 
 .item-container p.head{
@@ -290,10 +304,12 @@ footer styles
 
 .footer h1{
     font-size: 1.25rem;
+    color: var(--heading-color);
 }
 
 .copyright p{
     text-align: center;
     margin-top: .5rem;
     padding-bottom: 2rem;
+    color: var(--text-color);
 }

@@ -43,3 +43,15 @@ function hideNavbar() {
 
 menu.onclick = showNavbar;
 close.onclick = hideNavbar;
+
+/*-------------------- dark mode --------------------*/
+const themeToggle = document.getElementById('theme-toggle');
+const themeStyle = document.getElementById('theme-style')
+
+themeToggle.addEventListener('click', function() {
+    if(themeStyle.getAttribute('href') === "http://127.0.0.1:8000/assets/css/theme/light-mode.css"){
+        themeStyle.setAttribute('href', "http://127.0.0.1:8000/assets/css/theme/dark-mode.css")
+    }else{
+        themeStyle.setAttribute('href', "http://127.0.0.1:8000/assets/css/theme/light-mode.css")
+    }
+})

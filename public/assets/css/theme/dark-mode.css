@@ -1,0 +1,9 @@
+:root {
+  --border-gray: rgba(128, 128, 128, 0.2);
+  --white-bg: #161616;
+  --background: #262627;
+  --theme: #363D80;
+  --text-color: #a3b3bc;
+  --heading-color: #fff;
+  --hover: #212121;
+}

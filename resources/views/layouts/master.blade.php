@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/pages/shop.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/app.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive.css') }}">
+    <link id="theme-style" rel="stylesheet" href="{{ asset('assets/css/theme/light-mode.css') }}">
 </head> 
 <body class="">
     @yield('content')
