@@ -1,0 +1,21 @@
+.post-item {
+  background-color: transparent;
+  border: 1px solid var(--border-gray);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .25rem;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.post-item:hover {
+  background-color: var(--hover);
+}
+
+.item-container p.head {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 0 0 .50rem .25rem;
+}

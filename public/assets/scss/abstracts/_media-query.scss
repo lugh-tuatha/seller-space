@@ -1,12 +1,12 @@
 @media screen and (min-width: 600px) {
-  .product-container{
+  .product-container {
     width: 20rem;
     height: 20rem;
   }
 }
 
 @media screen and (max-width: 1070px) {
-  .header ul{
+  .header ul {
     display: none;
   }
 
@@ -14,13 +14,14 @@
     display: block;
   }
 
-  .shop{
+  .shop {
     flex-direction: column;
   }
 
 }
 
 @media screen and (max-width: 605px) {
+
   .header .search input,
   .header .search a {
     display: none;
@@ -31,16 +32,16 @@
   }
 
   .shop .item,
-  .shop{
+  .shop {
     flex-direction: column;
   }
-  
+
   .sidebar,
-  .product-container{
+  .product-container {
     width: 90%;
   }
 
-  .product-container{
+  .product-container {
     width: 18rem;
     height: 18rem;
   }

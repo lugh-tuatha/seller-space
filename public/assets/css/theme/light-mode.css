@@ -1,5 +1,8 @@
 :root{
+  --theme: #eb6d80;
+  --white-bg: #ffffff;
   --background: #eaeaea;
+  --text-color: #161613;
   --heading-color: #000;
   --hover: #e0e0e0;
 }
