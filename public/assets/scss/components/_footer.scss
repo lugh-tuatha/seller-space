@@ -12,19 +12,19 @@
   margin: 0 auto;
   padding-bottom: 1rem;
   border-bottom: 1px black solid;
-}
 
-.footer p {
-  color: var(--text-color);
-}
+  p{
+    color: var(--text-color);
+  }
 
-.footer img {
-  width: 6rem;
-}
+  img{
+    width: 6rem;
+  }
 
-.footer h1 {
-  font-size: 1.25rem;
-  color: var(--heading-color);
+  h1{
+    font-size: 1.25rem;
+    color: var(--heading-color);
+  }
 }
 
 .copyright p {

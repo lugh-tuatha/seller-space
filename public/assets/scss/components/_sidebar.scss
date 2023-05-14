@@ -3,44 +3,44 @@
   max-width: 17rem;
   border-radius: .5rem;
   background-color: var(--white-bg);
+
+  h1{
+    font-size: 1.15rem;
+    margin: 1rem 0 .75rem 1.5rem;
+    font-weight: 500;
+    background-color: transparent;
+    color: var(--theme);
+    font-weight: 600;
+  }
+
+  h2{
+    font-size: 1.05rem;
+    margin-left: 1.5rem;
+    color: var(--heading-color);
+  }
+
+  ul{
+    margin-bottom: .5rem;
+    li{
+    text-align: start;
+    margin: .25rem 0 0 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+
+      .active-sign{
+        background-color: var(--theme);
+        width: 5px;
+        height: 5px;
+        margin-right: .5rem;
+        border-radius: 100%;
+        visibility: hidden;
+      }
+    }
+  }
 }
 
-.sidebar h1 {
-  font-size: 1.15rem;
-  margin: 1rem 0 .75rem 1.5rem;
-  font-weight: 500;
-  background-color: transparent;
-  color: var(--theme);
-  font-weight: 600;
-}
-
-.sidebar h2 {
-  font-size: 1.05rem;
-  margin-left: 1.5rem;
-  color: var(--heading-color);
-}
-
-.sidebar ul {
-  margin-bottom: .5rem;
-}
-
-.sidebar ul li {
-  text-align: start;
-  margin: .25rem 0 0 1.5rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  color: var(--text-color);
-}
-
-.sidebar ul li .active-sign {
-  background-color: var(--theme);
-  width: 5px;
-  height: 5px;
-  margin-right: .5rem;
-  border-radius: 100%;
-  visibility: hidden;
-}
 
 .sidebar ul li.active .active-sign {
   visibility: visible;

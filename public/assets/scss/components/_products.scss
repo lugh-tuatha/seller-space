@@ -3,29 +3,29 @@
   background-color: var(--white-bg);
   border-radius: .5rem;
   cursor: pointer;
-}
 
-.product-container .product {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .product {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-.product-container .product img {
-  width: 90%;
-  border-radius: .25rem;
-  margin: 1rem 0 0 0;
-}
+    img {
+      width: 90%;
+      border-radius: .25rem;
+      margin: 1rem 0 0 0;
+    }
 
-.product-container .product h1 {
-  margin: .25rem 0;
-  font-size: 1.25rem;
-  color: var(--heading-color);
-}
+    h1 {
+      margin: .25rem 0;
+      font-size: 1.25rem;
+      color: var(--heading-color);
+    }
 
-.product-container .product p {
-  text-align: center;
-  width: 90%;
-  color: var(--text-color);
+    p {
+      text-align: center;
+      width: 90%;
+      color: var(--text-color);
+    }
+  }
 }
